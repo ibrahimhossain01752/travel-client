@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "price": "$67",
+        "descrip": "Singapure 3 Days 4 Night",
+        "img": "https://as2.ftcdn.net/v2/jpg/00/03/63/59/500_F_3635961_pZ3qYG8QGU1PbVkt0IZ6nsY5xkQyJkEy.jpg"
+    },
+    {
+        "id": "1",
+        "price": "$70",
+        "descrip": "Singapure 3 Days 4 Night",
+        "img": "https://as2.ftcdn.net/v2/jpg/00/91/00/33/500_F_91003330_DlNCFf9yYoHpx5F7ej5nPLo0wBgcngVq.jpg"
+    },
+    {
+        "id": "2",
+        "price": "$60",
+        "descrip": "Male 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/27/65/99/240_F_27659947_momR5uJfSSmkvsPsgoFPLA17sYk9P8z2.jpg"
+    },
+    {
+        "id": "2",
+        "price": "$65",
+        "descrip": "Male 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/51/32/69/240_F_51326921_73oEfs9oqUGjFpgPyHwz744LtMqX2TJz.jpg"
+    },
+    {
+        "id": "3",
+        "price": "$85",
+        "descrip": "Jakarta 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/37/37/77/240_F_37377797_65FTMKYwr7HlwuvKeV6EyarfjIUwBcs8.jpg"
+    },
+    {
+        "id": "3",
+        "price": "$75",
+        "descrip": "Jakarta 3 Days 4 Night",
+        "img": "https://t3.ftcdn.net/jpg/01/27/17/36/240_F_127173665_25AtPAWBxUADZDLPWn2pvvnYhmXLSRBL.jpg"
+    },
+    {
+        "id": "4",
+        "price": "$55",
+        "descrip": "Bankok 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/36/67/09/240_F_36670947_k2hBW2rqVGIGPEk2sA62P1B5CwTNDO7n.jpg"
+    },
+    {
+        "id": "4",
+        "price": "$69",
+        "descrip": "Bankok 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/01/04/07/240_F_1040710_reApvI6cmRjtCVJ6cH4EXqVIbPZEXL.jpg"
+    },
+    {
+        "id": "5",
+        "price": "$74",
+        "descrip": "Sydney 3 Days 4 Night",
+        "img": "https://t3.ftcdn.net/jpg/00/08/49/64/240_F_8496421_y5IrFRprUUclezM1TbkkE34QSAVxCHQ1.jpg"
+    },
+    {
+        "id": "5",
+        "price": "$64",
+        "descrip": "Sydney 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/01/47/75/15/240_F_147751505_PIqGVQvLnbieBa2pD3BEKNpErOxqrQV6.jpg"
+    },
+    {
+        "id": "6",
+        "price": "$100",
+        "descrip": "NewYork 3 Days 4 Night",
+        "img": "https://t4.ftcdn.net/jpg/00/04/82/41/240_F_4824134_cXQUJl4HpFWDNLaHvAaC8EwFj2qY0clT.jpg"
+    },
+    {
+        "id": "6",
+        "price": "$95",
+        "descrip": "NewYork 3 Days 4 Night",
+        "img": "https://t3.ftcdn.net/jpg/00/28/18/70/240_F_28187011_WaQdGFb3tMAWoB7ZeDd5kuhwPMc2HlCd.jpg"
+    }
+]

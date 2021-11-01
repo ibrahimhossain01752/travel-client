@@ -1,0 +1,29 @@
+.image1{
+    position: relative;
+    width: 330px;
+    height: 250px;
+   align-items: center;
+   justify-content: center;
+  
+   
+    
+}
+
+.service{
+    
+   background-color: #dde1e7;
+   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,.288);
+   
+  
+}
+
+.service h5{
+    margin-right: 145px;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: slateblue;
+    color: white;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.customer-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0 ,100, 0.2);
+    padding-bottom: 50px;
+}
+
+p{
+    padding: 50px 30px 30px 30px;
+}
+
+.review-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   position: relative;
+   margin: -30px 0 20px 40%;
+ 
+}
+
+.customer-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: slateblue;
+    font-family: sans-serif;
+  margin-bottom: 30%;
+
+}

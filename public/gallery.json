@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Kashmir",
+        "img": "https://image.freepik.com/free-photo/beautiful-river-snow-covered-mountains-landscape-kashmir-state-india_1232-4804.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Cox's Bazar",
+        "img": "https://image.freepik.com/free-photo/tropical-beach_74190-188.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Sundarban",
+        "img": "https://as2.ftcdn.net/v2/jpg/03/23/34/09/500_F_323340944_0VjHFqQrx34zBVYWBF4XmCBIECKgBDX2.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Dubai",
+        "img": "https://as2.ftcdn.net/v2/jpg/01/67/40/13/500_F_167401364_0AoBsUGgjBynIA4TBfec8dloJSgm0uar.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Japan",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/54/94/18/500_F_254941856_bOoDggsnLEhDVVifYARy7gavHoK0KRhl.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Delhi",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/00/55/38/500_F_200553856_wKJI6Kh5DjqjEBegIcOlU2oHAYEvBAnx.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Kingston",
+        "img": "https://as1.ftcdn.net/v2/jpg/01/67/01/48/500_F_167014871_KRfp13s6CVz1W19VRDjuV6WUuxeidbMn.jpg"
+    },
+    {
+        "id": "8",
+        "title": "",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/82/38/10/500_F_282381041_O7uUYn2MgQHcltBSnRnVf2daOZDR9nmO.jpg"
+    }
+]

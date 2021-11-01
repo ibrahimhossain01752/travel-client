@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    margin-bottom: 150px;
+    margin: 0;
+}
+
+.review{
+    width: 50%;
+    padding-left: 40px;
+    margin-top: 40px;
+
+}
