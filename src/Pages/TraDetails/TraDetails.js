@@ -2,13 +2,11 @@ import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
-// import { useIsRTL } from 'react-bootstrap/esm/ThemeProvider';
-// import TraDetail from './TraDetail';
 
 
 const TraDetails = () => {
 
-    // const { user } = useAuth();
+    const { user } = useAuth();
     const [details, setDetails] = useState([]);
     const [IsDelete, setIsDelete] = useState(false);
 

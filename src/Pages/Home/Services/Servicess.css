@@ -1,20 +1,9 @@
-.image1{
-    position: relative;
-    width: 330px;
-    height: 250px;
-   align-items: center;
-   justify-content: center;
-  
-   
-    
-}
+
 
 .service{
-    
-   background-color: #dde1e7;
-   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121,.288);
-   
-  
+   box-shadow: -3px -3px 7px #ffffff23, 3px 3px 5px rgba(94,104,121,.288);
+   padding: 10px;
+   margin: 15px;
 }
 
 .service h5{

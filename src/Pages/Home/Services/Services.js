@@ -36,17 +36,19 @@ const Services = () => {
 
 
     return (
-        <div id="services">
+        <div id="services" className="container text-center">
             <h1 className="mt-5 text-color-success">Featured Destination</h1>
-            <div className="row ">
+            <div className="row">
                 {services.map((p, index) => (
-                    <div className="col-lg-4 col-sm-12  service w-25 h-25  m-5  ">
-                        <img className="image1" src={p?.img} alt="" />
-                        <h5 >{p?.title}</h5>
-                        <p className="p-2">{p?.description}</p>
-                        <Link to="/customer">
-                            <button onClick={() => addOrder(index)} className="btn">Book Now</button>
-                        </Link>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                        <div className="service">
+                            <img className="image1 img-fluid" src={p?.img} alt="" />
+                            <h5 >{p?.title}</h5>
+                            <p className="p-2">{p?.description}</p>
+                            <Link to="/customer">
+                                <button onClick={() => addOrder(index)} className="btn">Book Now</button>
+                            </Link>
+                        </div>
                     </div>
                 ))};
             </div>

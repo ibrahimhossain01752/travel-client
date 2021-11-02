@@ -1,9 +1,16 @@
 
-
 .customer{
     width: 80%;
     margin: auto;
 }
 .content{
  margin-left: 5%;
+}
+.bg-cover{
+    background-image: url('./travel-agency.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
 }

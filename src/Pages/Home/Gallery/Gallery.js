@@ -1,13 +1,16 @@
-import React from 'react';
+// import React from 'react';
 
-const Gallery = ({ gallery }) => {
-    const { title, img } = gallery;
-    return (
-        <div className="col-lg-3 col-sm-6 ">
-            <img className="w-75 h-75 " src={img} alt="" />
-            <h5>{title}</h5>
-        </div>
-    );
-};
+// const Gallery = ({ gallery }) => {
+//     const { title, img } = gallery;
 
-export default Gallery;
+//     return (
+//         <div className="card">
+//             <img className="img-fluid" src={img} alt="" />
+//             <div className="card-body">
+//                 <h2 class="card-title">{title}</h2>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default Gallery;

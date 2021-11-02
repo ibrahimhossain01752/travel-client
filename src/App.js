@@ -3,16 +3,16 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import Footer from './Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Booking from './Pages/Booking/Booking/Booking';
 import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
-import PrivateRoute from './Pages/Login/Login/PrivateRoute/PrivateRoute';
 import TraDetails from './Pages/TraDetails/TraDetails';
 import NotFound from './Pages/NotFound/NotFound';
 import Customer from './Pages/Customer/Customer';
 import AddService from './Pages/AddService/AddService';
 import Admin from './Pages/Admin/Admin';
+import Gallerys from './Pages/Home/Gallery/Gallerys';
+import Reviews from './Pages/Home/Reviews/Reviews';
 
 
 
@@ -35,14 +35,17 @@ function App() {
             <Route path="/admin">
               <Admin></Admin>
             </Route>
-            <PrivateRoute path="/booking/:id">
-              <Booking></Booking>
-            </PrivateRoute>
             <Route path="/tradetail">
               <TraDetails></TraDetails>
             </Route>
             <Route path="/customer">
               <Customer></Customer>
+            </Route>
+            <Route path="/reviews">
+              <Reviews></Reviews>
+            </Route>
+            <Route path="/gallerys">
+              <Gallerys></Gallerys>
             </Route>
             <Route path="/addService">
               <AddService></AddService>
