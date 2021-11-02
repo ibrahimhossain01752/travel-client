@@ -9,9 +9,10 @@ import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/Login/PrivateRoute/PrivateRoute';
 import TraDetails from './Pages/TraDetails/TraDetails';
-import OrderReview from './Pages/OrderReview/OrderReview';
 import NotFound from './Pages/NotFound/NotFound';
 import Customer from './Pages/Customer/Customer';
+import AddService from './Pages/AddService/AddService';
+import Admin from './Pages/Admin/Admin';
 
 
 
@@ -31,8 +32,8 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/booking">
-              <Booking></Booking>
+            <Route path="/admin">
+              <Admin></Admin>
             </Route>
             <PrivateRoute path="/booking/:id">
               <Booking></Booking>
@@ -43,8 +44,8 @@ function App() {
             <Route path="/customer">
               <Customer></Customer>
             </Route>
-            <Route path="/orserreviews">
-              <OrderReview></OrderReview>
+            <Route path="/addService">
+              <AddService></AddService>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

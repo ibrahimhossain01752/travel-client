@@ -14,18 +14,17 @@ const Header = () => {
                     <Navbar.Brand href="#home">Travel</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="/booking">Booking</Nav.Link>
-                        <Nav.Link as={HashLink} to="/tradetail">MyOrder</Nav.Link>
-                        <Nav.Link as={HashLink} to="/orserreviews">OrderReviews</Nav.Link>
+                        <Nav.Link as={HashLink} className="text-light" to="/home">Home</Nav.Link>
+                        {user?.email && <Nav.Link as={HashLink} className="text-light" to="/tradetail">MyOrder</Nav.Link>}
+                        {user?.email && <Nav.Link as={HashLink} className="text-light" to="/addService">Add-Service</Nav.Link>}
+                        <Navbar.Text><a href="#login" className="text-decoration-none p-2 text-warning"> {user?.displayName} </a> </Navbar.Text>
                         {user?.email ?
-                            <Button onClick={logOut} variant="primary">logOut</Button> :
+                            <Button onClick={logOut} variant="primary">logOut</Button>
+                            :
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
 
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text>
+                        {/* <Navbar.Text><a href="#login" className="text-decoration-none ">  {user?.displayName}</a> </Navbar.Text> */}
                     </Navbar.Collapse>
 
                 </Container>

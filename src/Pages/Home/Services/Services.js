@@ -5,7 +5,6 @@ import { Link, useHistory } from "react-router-dom";
 
 
 const Services = () => {
-
     // const history = useHistory();
 
     const [services, setServices] = useState([]);
@@ -33,7 +32,7 @@ const Services = () => {
                 // }
             })
     }
-    // as={Link} to="/customer"
+
 
 
     return (

@@ -1,5 +1,9 @@
 
 
 .customer{
-    width: 90%;
+    width: 80%;
+    margin: auto;
+}
+.content{
+ margin-left: 5%;
 }
