@@ -14,7 +14,7 @@ const Admin = () => {
     const [IsDelete, setIsDelete] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/myOrders')
+        fetch('https://travel-server11.onrender.com/myOrders')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -26,7 +26,7 @@ const Admin = () => {
     //handleDelete
     const handleDelete = (id) => {
         console.log(id);
-        fetch(`http://localhost:5000/deleteOrdersByUser/${id}`, {
+        fetch(`https://travel-server11.onrender.com/deleteOrdersByUser/${id}`, {
             method: 'DELETE',
             headers: { "content-type": "application/json" }
         }).then(res => res.json())
@@ -45,7 +45,7 @@ const Admin = () => {
     const handleUpdate = (id) => {
         console.log(id);
         // useEffect(()=>{
-        fetch(`http://localhost:5000/adminPannel/approved/${id}`, {
+        fetch(`https://travel-server11.onrender.com/adminPannel/approved/${id}`, {
             method: 'PUT',
             headers: { "content-type": "application/json" },
         }).then(res => res.json())

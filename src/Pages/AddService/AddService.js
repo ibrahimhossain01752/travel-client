@@ -13,7 +13,7 @@ const AddService = () => {
     // Add Service on database.................
     const onSubmit = data => {
         console.log(data);
-        fetch(`http://localhost:5000/addServiceDB`, {
+        fetch(`https://travel-server11.onrender.com/addServiceDB`, {
             method: 'POST',
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

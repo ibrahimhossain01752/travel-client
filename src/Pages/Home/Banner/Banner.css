@@ -1,28 +1,26 @@
-.image{
-    width: 100%;
-    height: 550px;
+.banner-main{
+    background: url('https://www.bsr.org/images/heroes/bsr-travel-hero..jpg');
+    background-size: cover;
+	background-position: center;
+}
+.banner-overlay{
+	background-color: rgba(0, 0, 0, 0.61);
+	padding: 200px 0;
+}
+.banner-content h6{
+    font-size: 20px;
+    color: rgb(31, 218, 218);
+    font-family: pacifico,cursive!important;
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-content p{
+    font-size: 18px;
 }
 
-/* .container{
-    display: flex;
-    text-align: justify;
-    margin-bottom: 150px;
-}
-
-.banner-section{
-    width: 50%;
-    padding: 120px;
-    padding-bottom: 25px;
-} */
 
 
-@media only screen and (max-width:688px) {
-    .image-container{
-        grid-template-columns:0fr;
-    }
-}
-@media only screen and (min-width:689px) and (max-width: 991px){
-    .image-container{
-        grid-template-columns:0fr;
-    }
-}
+
+

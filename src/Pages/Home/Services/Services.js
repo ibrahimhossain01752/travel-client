@@ -9,7 +9,7 @@ const Services = () => {
 
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/travels')
+        fetch('https://travel-server11.onrender.com/travels')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
@@ -19,7 +19,7 @@ const Services = () => {
         const travel = (services[index]);
         console.log(travel);
 
-        fetch(`http://localhost:5000/Addbooking`, {
+        fetch(`https://travel-server11.onrender.com/Addbooking`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(travel),

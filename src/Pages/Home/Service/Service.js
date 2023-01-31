@@ -8,7 +8,7 @@
 
 //     const addOrder = (index) => {
 //         console.log(index);
-//         fetch(`http://localhost:5000/booking`, {
+//         fetch(`https://travel-server11.onrender.com/booking`, {
 //             method: 'POST',
 //             headers: { 'content-type': 'application/json' },
 //             body: JSON.stringify(index)

@@ -21,7 +21,7 @@ const Customer = () => {
         const status = "Pending";
         data.status = status;
 
-        fetch(`http://localhost:5000/customerInfo`, {
+        fetch(`https://travel-server11.onrender.com/customerInfo`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
@@ -37,7 +37,7 @@ const Customer = () => {
 
     // Show Booking data on customer info pages.
     useEffect(() => {
-        fetch(`http://localhost:5000/getBooking`)
+        fetch(`https://travel-server11.onrender.com/getBooking`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
