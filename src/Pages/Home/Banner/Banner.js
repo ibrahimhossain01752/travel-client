@@ -13,7 +13,7 @@ const Banner = () => {
                         <h6 class="">Welcome To Traveller</h6>
                         <h1 class="my-0">It is Better to</h1>
                         <h1 class="my-0">Travel Well Than</h1>
-                        <h1 class="my-0">to Arrive</h1>
+                        <h1 class="my-0">to Arrivee</h1>
                         
                        
                     </div>
