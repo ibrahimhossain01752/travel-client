@@ -10,10 +10,10 @@ const Banner = () => {
             <div class="row">
            <div class="col-lg-6">
                     <div class="banner-content text-center text-md-start">
-                        <h6 class="">Welcome To Traveller</h6>
-                        <h1 class="my-0">It is Better to</h1>
-                        <h1 class="my-0">Travel Well Than</h1>
-                        <h1 class="my-0">to Arrivee</h1>
+                        <h6 class="fw-bold">Welcome To Traveller</h6>
+                        <h1 class="my-0 fw-bold">It is Better to</h1>
+                        <h1 class="my-0 fw-bold">Travel Well Than</h1>
+                        <h1 class="my-0 fw-bold">to Arrive</h1>
                         
                        
                     </div>

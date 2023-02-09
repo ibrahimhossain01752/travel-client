@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+// import logo from '../../../images/banner/logo.png';
 import './Header.css';
 import { HashLink } from 'react-router-hash-link';
 
@@ -11,7 +12,8 @@ const Header = () => {
         <>
             <Navbar className="bg" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Travel</Navbar.Brand>
+                
+                    <Navbar.Brand className='fst-italic' href="#home">Traveller</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} className="text-light" to="/home">Home</Nav.Link>
