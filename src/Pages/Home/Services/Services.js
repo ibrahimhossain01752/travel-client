@@ -42,9 +42,9 @@ const Services = () => {
                 {services.map((p, index) => (
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="service">
-                            <img className="image1 img-fluid" src={p?.img} alt="" />
-                            <h5 >{p?.title}</h5>
-                            <p className="p-2">{p?.description}</p>
+                            <img className="image1 " src={p?.img} alt="" />
+                            <h5 className='image_title'>{p?.title}</h5>
+                            <p className="p-1 image_des">{p?.description}</p>
                             <Link to="/customer">
                                 <button onClick={() => addOrder(index)} className="btn">Book Now</button>
                             </Link>
