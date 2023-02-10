@@ -37,7 +37,7 @@ const Services = () => {
 
     return (
         <div id="services" className="container text-center">
-            <h1 className="mt-5 text-color-success">Featured Destination</h1>
+            <h1 className="mt-5 text_on">Feature Destination</h1>
             <div className="row">
                 {services.map((p, index) => (
                     <div className="col-lg-4 col-md-6 col-sm-12">
