@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallerys = () => {
     return (
-        <div className="container">
+        <div className="container mt-5">
             <h2 className="mb-5">Travelling Gallery</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
