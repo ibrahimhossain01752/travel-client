@@ -19,10 +19,7 @@ const Footer = () => {
                 voluptatum deleniti atque corrupti.
               </p>
       
-              <p>
-                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-                molestias.
-              </p>
+            
       
               <div class="mt-4">
                
