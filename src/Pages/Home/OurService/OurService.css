@@ -1,0 +1,36 @@
+.service_icons{
+    color: #FF9F1C;
+    font-size: 40px;
+    margin-left: -260px;
+}
+.service_header{
+    margin-left: -85px;
+}
+.service_header1{
+    margin-left:-78px;
+}
+.service_header2{
+    margin-left:-125px;
+}
+.service_header3{
+    margin-left:-105px;
+}
+.service_header4{
+    margin-left:-180px;
+}
+.services_header6{
+    margin-left:-30px;
+}
+.service_para{
+    text-align: left;
+    margin-top: -30px;
+    margin-left: -15px;
+}
+.service_para1{
+    text-align: left;
+    margin-top: -30px;
+    margin-left: -19px;
+}
+.ser_bg{
+  background-color:  rgba(128, 128, 128, 0.056);
+}
