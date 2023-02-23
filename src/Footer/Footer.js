@@ -46,7 +46,7 @@ const Footer = () => {
       
               <ul class="fa-ul">
                 <li class="mb-3">
-                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Bangladesh, Jaleshoritola, BD</span>
                 </li>
                 <li class="mb-3">
                   <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">ibrahimhossain01752@gmail.com</span>
